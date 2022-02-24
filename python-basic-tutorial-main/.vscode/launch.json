@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {"name":"Python: Текущий файл","type":"python","request":"launch","program":"${file}","console":"integratedTerminal"},
+        {
+            "name": "Docker: Python - General",
+            "type": "docker",
+            "request": "launch",
+            "preLaunchTask": "docker-run: debug",
+            "python": {
+                "pathMappings": [
+                    {
+                        "localRoot": "${workspaceFolder}",
+                        "remoteRoot": "/app"
+                    }
+                ],
+                "projectType": "general"
+            }
+        }
+    ]
+}

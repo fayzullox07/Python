@@ -1,0 +1,36 @@
+import random : random ishlaydi
+print(arr[3:]) - pichoq
+range() - bu diapazon
+print() - chop etish
+# print(list(range(51))) # qisqaroq - 50 gacha sonlar chiqadi
+
+List() bu massiv
+
+
+
+
+arr.append(6) #oxiriga qiymat qo'shadi
+arr.extend(arr2) #kengaytiradi
+arr.insert(5, "6 soni") siz ko'rsatgan indexga siz ko'rsatgan qiymatni qo'shadi faqat bitta qiymatni
+arr.pop(5) # Siz ko'rsatgan index bo'yicha elemni o'chiradi qiymat bermasagiz oxirgini o'chiradi
+del arr[0]  # Siz ko'rsatgan index bo'yicha elemni o'chiradi
+
+arr.remove(9) range dan tashaqari son berilsa ValueError aks xolda tartib bo'yicha o'chiradi
+arr.clear() istalgan massiv tozzalaydi []
+print(arr.index(5)) elemdi indexini qaytaradi
+print(max(arr))
+print(min(arr))
+sort sortirovka qiladi
+reverse - teskari qiladi
+s = (1,2,3,4) == o'zgarmas kortej class tuple
+set = Betartib qiymatlar extensionlar:
+s.union(set("yto")) #kengaytirish
+s.udapte(set("to")) #yangilaydi va qoshadi
+s.add(22) #elem qo'shish
+a.remove(22) #ochirish
+a.discard("A") #agar bo'lsa o'chiradi bo'lmasa hech qanday so'kinmaydi
+s.pop() #tasodifiy elemni o'chiradi
+s.clear #tozlaydi
+set2 = frozensent("str") muzlatilgan set
+
+dict() object eslatma!!! pythondagi object keyi faqat str bo'ladi
